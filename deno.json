@@ -1,0 +1,9 @@
+{
+  "tasks": {
+    "dev": "deno run --watch --env-file=.env.local --allow-env --allow-import --allow-net --allow-read --allow-write main.ts"
+  },
+  "imports": {
+    "@std/assert": "jsr:@std/assert@1",
+    "telegramify-markdown": "npm:telegramify-markdown@^1.2.2"
+  }
+}
